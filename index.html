@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="BiaBao - Authentic Chinese and Asian Fusion Cuisine in Sligo. Explore our menu and order online."> 
+    <meta name="keywords" content="Chinese food, Asian fusion, restaurant, BiaBao, takeout, dine-in"> 
+    <title>BiaBao - Authentic Asian Cuisine</title>
+    <link rel="stylesheet" href="styles/styles.css"> 
+    <link rel="icon" href="images/favicon.ico" type="image/gif"> 
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            padding-top: 110px;
+        }
+        h2 {
+            color: #FFC107;
+        }
+        .content
+        {
+            background-color:#141414;
+        }
+    </style>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-links").classList.toggle("active");
+        }
+    </script>
+</head>
+<body>
+    <header class="container">
+        <img src="images/BiaBaoLogo.png" alt="Bia Bao Logo" id="logo">
+        <h1 style="position: fixed, left;">Bia Bao</h1>
+        <section class="hamburger" onclick="toggleMenu()">
+            &#9776; <!-- Hamburger icon -->
+        </section>
+        <nav>
+            <ul class="nav-links">
+                <li id="active"><a href="index.html" class="button">Home</a></li>
+                <li><a href="aboutUs.html" class="button">About Us</a></li>
+                <li><a href="menu.html" class="button">Menu</a></li>
+                <li><a href="contactUs.html" class="button">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="content">
+        <article>
+            <h2>Welcome to Bia Bao</h2>
+            <p>
+                    Experience the rich flavours of authentic Chinese and Asian fusion cuisine. 
+                    At Bia Bao, we bring you the best ingredients, traditional recipes, and a 
+                    modern dining experience that will satisfy your taste buds.
+            </p>
+
+            <h2>Explore Our Food</h2>
+            <p>
+                From sizzling stir-fries to delicate dumplings, every dish is crafted with passion. 
+                Our menu features a blend of traditional Chinese flavours and modern fusion dishes, 
+                ensuring a unique and delightful experience for every food lover.
+            </p>
+
+            <a href="menu.html" class="menu-button">Go to Menu</a>
+        </article>
+        <figure>
+            <img src="images/noodlesShorterPic.jpg" alt="Delicious Chinese Cuisine" id="homeImage">
+        </figure>
+    </main>
+    <footer>
+        <p>This is a college project.</p>
+        <p>&copy; 2025 BiaBao. All rights reserved.</p>
+        <address>
+            123 Food Street, Sligo, Ireland | 
+            Phone: <a href="tel:+353711234567">(071) 123 4567</a> | 
+            Email: <a href="mailto:info@biabao.ie">info@biabao.ie</a>
+        </address>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contactUs.html">Contact Us</a></li>
+            </ul>   
+        </nav>
+    </footer>
+        
+</body>
+</html>
